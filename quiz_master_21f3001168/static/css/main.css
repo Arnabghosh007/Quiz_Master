@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+@media (max-height: 600px) {
+    body {
+        align-items: flex-start;
+    }
+    
+    .card {
+        margin: 20px auto;
+    }
+}
